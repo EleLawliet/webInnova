@@ -1,0 +1,64 @@
+@import "nib"
+
+navbar_color = #171717
+primary_color = #085BA7
+
+
+body
+	font-family 'Roboto'
+	font-size 16px
+	margin 0
+	padding 0
+	background url('https://ununsplash.imgix.net/5/unsplash-bonus.jpg?q=75&fm=jpg&s=816c3ecfd6f8058450e6ae250fac7141')
+	background-position fixed
+	background-size cover
+	background-repeat no-repeat
+
+.hover
+	color white
+	&:hover
+		color white
+	
+.Navbar
+	background navbar_color
+	padding .5em 1em
+	color white
+	overflow hidden
+	
+.Navbar-icon
+	margin-right .5em
+	line-height 2em
+
+.Navbar-search
+	margin-top .2em
+	border-radius .2em
+	border solid 1px white
+	padding 0 1.5em 0 .5em
+	width 10em
+	color black
+
+.Navbaricon-search
+	color black
+	position relative
+	left -1.5em
+	top -0.1em
+	cursor pointer
+
+.SubNavbar
+	background rgba(49, 51, 48, 0.92)
+	height 8em
+
+.SubNavbar-logo
+	width 9.37em
+	margin 2em 0 0 2em
+	
+.Subnavbar-items ul
+	list-style none
+	margin 3.5em 0 
+
+.Subnavbar-items li
+	float left
+	margin 0 0 0 4em
+
+.Subnavbar-items a
+	color white
